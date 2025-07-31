@@ -101,4 +101,54 @@ footer {
   font-size: 14px;
   color: #666;
 }
+#reclutamiento {
+  padding: 50px 20px;
+  background: linear-gradient(145deg, #0a0a0a, #1a1a1a);
+  border-top: 2px solid #00ffff;
+  border-bottom: 2px solid #00ffff;
+  color: white;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#reclutamiento h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #00ffff;
+  text-shadow: 1px 1px #000;
+}
+
+#reclutamiento label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#reclutamiento input,
+#reclutamiento textarea {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #333;
+  color: white;
+}
+
+#reclutamiento button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #00ffff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+#reclutamiento button:hover {
+  background-color: #00cccc;
+}
 
